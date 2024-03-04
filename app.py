@@ -57,10 +57,10 @@ def cadastrar_novo_restaurante():
 def listar_restaurantes():
     exibir_subtitulo('Listando todos os Restaurantes')
     for restaurante in restaurantes:
-        nome_resaturante = restaurante['nome']
+        nome_resturante = restaurante['nome']
         categoria = restaurante['categoria']
         ativo = restaurante['ativo']
-        print(f' - {nome_resaturante} | {categoria} | {ativo}')
+        print(f' - {nome_resturante} | {categoria} | {ativo}')
 
     voltar_ao_menu_principal()
 
